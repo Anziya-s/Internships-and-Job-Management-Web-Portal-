@@ -72,9 +72,13 @@ This project was developed as part of my **Zidio Internship Program**.
 Internships-and-Job-Management-Web-Portal
 │
 ├── src/main/java
+
 │ ├── controller
+
 │ ├── model
+
 │ ├── service
+
 │ ├── repository
 │ └── config
 │
@@ -169,7 +173,7 @@ applications	Tracks user job applications
 
 ### 📝 Project Plan
 <p align="center">
-  <img src="./spring-boot-job-portal-app-main/screenshots/09.png" width="600"/>
+  <img src="./spring-boot-job-portal-app-main/screenshots/09.jpg" width="600"/>
 </p>
 
 
