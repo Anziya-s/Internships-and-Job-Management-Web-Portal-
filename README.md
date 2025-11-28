@@ -92,12 +92,16 @@ Internships-and-Job-Management-Web-Portal
 
 ### 1️⃣ Clone Repository
 git clone https://github.com/Anziya-s/Internships-and-Job-Management-Web-Portal-.git
+
 cd Internships-and-Job-Management-Web-Portal-
 
 ### 2️⃣ Configure MySQL Database
 spring.datasource.url=jdbc:mysql://localhost:3306/job_portal_db
+
 spring.datasource.username=root
+
 spring.datasource.password=yourpassword
+
 spring.jpa.hibernate.ddl-auto=update
 
 ### 3️⃣ Run the Project
@@ -108,17 +112,49 @@ mvn spring-boot:run
 
 ### 🛢️ Database Schema (Overview)
 Table	Purpose
+
 users	Stores user login and personal details
+
 roles	Handles user roles (Admin/User)
+
 jobs	Stores job/internship postings
+
 applications	Tracks user job applications
-### 🖼 Screenshots
+## 📸 Screenshots
 
-(Add images here later — example:)
+### 🏠 Home Page
+<p align="center">
+  <img src="./spring-boot-job-portal-app-main/screenshots/01.png" width="600"/>
+</p>
 
-![Home](./screenshots/01.jpg)
-![Login](./screenshots/02.jpg)
-![Job Listing](./screenshots/03.jpg)
+---
+
+### 🔐 Login Page
+<p align="center">
+  <img src="./spring-boot-job-portal-app-main/screenshots/02.png" width="600"/>
+</p>
+
+---
+
+### 📄 Job Listings
+<p align="center">
+  <img src="./spring-boot-job-portal-app-main/screenshots/03.png" width="600"/>
+</p>
+
+---
+
+### 📝 Apply Page
+<p align="center">
+  <img src="./spring-boot-job-portal-app-main/screenshots/04.png" width="600"/>
+</p>
+
+---
+
+### 👤 Admin Dashboard
+<p align="center">
+  <img src="./spring-boot-job-portal-app-main/screenshots/05.png" width="600"/>
+</p>
+
 
 ### 🚀 Future Improvements
 
@@ -130,9 +166,9 @@ applications	Tracks user job applications
 
 🏢 Company HR Panel
 
-🧪 Testing
+### 🧪 Testing
 
-### Manual testing with user/admin roles
+Manual testing with user/admin roles
 
 Bug fixing, validation checks
 
