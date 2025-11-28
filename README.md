@@ -105,12 +105,14 @@ spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 
 ### 3️⃣ Run the Project
+
 mvn spring-boot:run
 
 
 👉 Application runs at: http://localhost:8080/
 
 ### 🛢️ Database Schema (Overview)
+
 Table	Purpose
 
 users	Stores user login and personal details
@@ -120,6 +122,7 @@ roles	Handles user roles (Admin/User)
 jobs	Stores job/internship postings
 
 applications	Tracks user job applications
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
@@ -154,6 +157,21 @@ applications	Tracks user job applications
 <p align="center">
   <img src="./spring-boot-job-portal-app-main/screenshots/05.png" width="600"/>
 </p>
+
+---
+
+### 📦 BackEnd Project Structure
+<p align="center">
+  <img src="./spring-boot-job-portal-app-main/screenshots/06.png" width="600"/>
+</p>
+
+---
+
+### 📝 Project Plan
+<p align="center">
+  <img src="./spring-boot-job-portal-app-main/screenshots/09.png" width="600"/>
+</p>
+
 
 
 ### 🚀 Future Improvements
@@ -190,6 +208,8 @@ Thanks to Zidio Internship Program for guidance, mentorship, and opportunity.
 ### 📬 Contact
 
 👤 Ansiya S
+
 📧 Email: ansiyashihab9747@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/ansiya-s-62569a326/
 
