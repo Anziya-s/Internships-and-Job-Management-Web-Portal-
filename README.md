@@ -91,29 +91,28 @@ Internships-and-Job-Management-Web-Portal
 ## ⚙️ Installation Guide
 
 ### 1️⃣ Clone Repository
-```bash
 git clone https://github.com/Anziya-s/Internships-and-Job-Management-Web-Portal-.git
 cd Internships-and-Job-Management-Web-Portal-
 
-2️⃣ Configure MySQL Database
+### 2️⃣ Configure MySQL Database
 spring.datasource.url=jdbc:mysql://localhost:3306/job_portal_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 
-3️⃣ Run the Project
+### 3️⃣ Run the Project
 mvn spring-boot:run
 
 
 👉 Application runs at: http://localhost:8080/
 
-🛢️ Database Schema (Overview)
+### 🛢️ Database Schema (Overview)
 Table	Purpose
 users	Stores user login and personal details
 roles	Handles user roles (Admin/User)
 jobs	Stores job/internship postings
 applications	Tracks user job applications
-🖼 Screenshots
+### 🖼 Screenshots
 
 (Add images here later — example:)
 
@@ -121,7 +120,7 @@ applications	Tracks user job applications
 ![Login](./screenshots/02.jpg)
 ![Job Listing](./screenshots/03.jpg)
 
-🚀 Future Improvements
+### 🚀 Future Improvements
 
 🔔 Email notification system
 
@@ -133,29 +132,28 @@ applications	Tracks user job applications
 
 🧪 Testing
 
-Manual testing with user/admin roles
+### Manual testing with user/admin roles
 
 Bug fixing, validation checks
 
 Tested UI responsiveness
 
-📌 Contribution Guidelines
+### 📌 Contribution Guidelines
 
 Pull requests are welcome. For major changes, please open an issue first to discuss.
 
-📜 License
+### 📜 License
 
 This project is developed for educational purposes and currently does not use any license.
 You may modify or use the code with proper credit.
 
-🙌 Acknowledgment
+### 🙌 Acknowledgment
 
 Thanks to Zidio Internship Program for guidance, mentorship, and opportunity.
 
-📬 Contact
+### 📬 Contact
 
 👤 Ansiya S
 📧 Email: ansiyashihab9747@gmail.com
-
 🔗 LinkedIn: https://www.linkedin.com/in/ansiya-s-62569a326/
 
